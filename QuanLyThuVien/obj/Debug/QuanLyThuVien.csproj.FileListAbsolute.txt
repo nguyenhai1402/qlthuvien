@@ -1,0 +1,13 @@
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.DangNhap.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe.config
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.CauHinhDB.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\bin\Debug\Config.ini
