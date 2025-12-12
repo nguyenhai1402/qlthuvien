@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -59,18 +74,72 @@
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="datahelper.cs" />
+    <Compile Include="PhieuMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuMuon.Designer.cs">
+      <DependentUpon>PhieuMuon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemSach.Designer.cs">
+      <DependentUpon>ThemSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemSinhVien.Designer.cs">
+      <DependentUpon>ThemSinhVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrangChu.Designer.cs">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XemSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XemSach.Designer.cs">
+      <DependentUpon>XemSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XemSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XemSinhVien.Designer.cs">
+      <DependentUpon>XemSinhVien.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CauHinhDB.resx">
       <DependentUpon>CauHinhDB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PhieuMuon.resx">
+      <DependentUpon>PhieuMuon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemSach.resx">
+      <DependentUpon>ThemSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemSinhVien.resx">
+      <DependentUpon>ThemSinhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrangChu.resx">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XemSach.resx">
+      <DependentUpon>XemSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XemSinhVien.resx">
+      <DependentUpon>XemSinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Config.ini">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -110,6 +179,43 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Database\database+taikhoan.sql" />
+    <None Include="Resources\sách.png" />
+    <None Include="Resources\timkiemsach.png" />
+    <None Include="Resources\trasach.png" />
+    <None Include="Resources\thongke.png" />
+    <None Include="Resources\thoat.png" />
+    <None Include="Resources\backgroundtrangchu.jpg" />
+    <None Include="Resources\icons8-student-male-100.png" />
+    <None Include="Resources\issueBook.gif" />
+    <None Include="Resources\gif_timSinhVien.gif" />
+    <None Include="Resources\gif_load_timSV.gif" />
+    <None Include="Resources\addstudent.gif" />
+    <None Include="Resources\picture_ThemSinhVien.png" />
+    <None Include="Resources\gif_xemSach.gif" />
+    <None Include="Resources\picture_addBook.jpg" />
+    <None Include="Resources\bg_Thong_ke_sach.png" />
+    <None Include="Resources\bg_TraSach.png" />
+    <None Include="Resources\bg_PhieuSach.png" />
+    <None Include="Resources\bg_TrangChu.jpg" />
+    <None Include="Resources\bg_TimKiem.png" />
+    <None Include="Resources\bg_Thoat.png" />
+    <None Include="Resources\bg_ThemStudent.png" />
+    <None Include="Resources\bg_ThemSach.png" />
+    <None Include="Resources\bg_student.png" />
+    <None Include="Resources\bg_Sach.png" />
+    <None Include="Resources\add book.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
