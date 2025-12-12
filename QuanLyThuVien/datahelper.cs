@@ -13,7 +13,7 @@ namespace QuanLyThuVien
     {
         public static DataHelper dt;
         string st = "";
-        SqlConnection con = new SqlConnection();
+        public SqlConnection con = new SqlConnection();
 
         /// <summary>
         /// Kết nối cơ sở dữ liệu với quyền Windows

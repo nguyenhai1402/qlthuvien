@@ -10,4 +10,5 @@ create table TaiKhoan(
 
 insert into TaiKhoan values('hainek','123456');
 insert into TaiKhoan values('hieunek','123456');
+insert into TaiKhoan values('1','1');
 select * from TaiKhoan

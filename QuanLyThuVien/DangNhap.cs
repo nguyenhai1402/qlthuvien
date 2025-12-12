@@ -62,10 +62,10 @@ namespace QuanLyThuVien
                 if (count > 0)
                 {
                     // Đăng nhập thành công
-                    MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Hide();
                     // Vào form dashboard
-                    
+                    TrangChu trangChu = new TrangChu();
+                    trangChu.Show();
+                    this.Hide();
                 }
                 else
                 {
