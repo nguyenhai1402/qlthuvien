@@ -57,15 +57,39 @@ namespace QuanLyThuVien
                 //  Thực thi và lấy số lượng bản ghi
                 int count = (int)cmd.ExecuteScalar();
                 // Đóng kết nối
-                DataHelper.dt.DongKetNoi();
+              
 
                 if (count > 0)
                 {
+                     string sqlQuyen = "SELECT Quyen FROM TaiKhoan WHERE TaiKhoan = @tk AND MatKhau = @mk";
+                    // ====== LẤY QUYỀN CỦA TÀI KHOẢN ======
+                    SqlCommand cmdRole = DataHelper.dt.TaoCommand(sqlQuyen);
+                    cmdRole.Parameters.AddWithValue("@tk", txtTaiKhoan.Text.Trim());
+                    cmdRole.Parameters.AddWithValue("@mk", txtMatKhau.Text.Trim());
+
+                    int role = Convert.ToInt32(cmdRole.ExecuteScalar());
+
+                    // GÁN VÀO BIẾN TOÀN CỤC
+                    DataHelper.Quyen = role;
+
+                    DataHelper.dt.DongKetNoi();
+
+                 
+                    if (role == 0)
+                    {
+                        MessageBox.Show("Đăng nhập thành công (Admin)", "Thông báo");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Đăng nhập thành công (Nhân viên)", "Thông báo");
+                    }
+
+
                     // Đăng nhập thành công
-                    MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Hide();
                     // Vào form dashboard
-                    
+                    TrangChu trangChu = new TrangChu();
+                    trangChu.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -78,6 +102,15 @@ namespace QuanLyThuVien
                 DataHelper.dt.DongKetNoi(); // Đảm bảo đóng kết nối nếu có lỗi
                 MessageBox.Show("Lỗi truy vấn: " + ex.Message, "Lỗi CSDL", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void btnDangKy_Click(object sender, EventArgs e)
+        {
+            DangKy ky = new DangKy();
+            
+            ky.ShowDialog();
+           
+            
         }
     }
 }
