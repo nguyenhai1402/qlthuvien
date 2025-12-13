@@ -160,6 +160,9 @@
   <data name="bg_TraSach" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg_TraSach.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dangtimnhanvien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dangtimnhanvien.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="gif_load_timSV" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gif_load_timSV.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,6 +175,9 @@
   <data name="gif_xemSach" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gif_xemSach.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nhanvien__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nhanvien (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="picture_addBook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\picture_addBook.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -183,5 +189,8 @@
   </data>
   <data name="profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Timnhanvien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Timnhanvien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

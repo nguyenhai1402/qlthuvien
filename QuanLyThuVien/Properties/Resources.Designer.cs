@@ -203,6 +203,16 @@ namespace QuanLyThuVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dangtimnhanvien {
+            get {
+                object obj = ResourceManager.GetObject("dangtimnhanvien", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gif_load_timSV {
             get {
                 object obj = ResourceManager.GetObject("gif_load_timSV", resourceCulture);
@@ -243,6 +253,16 @@ namespace QuanLyThuVien.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap nhanvien__1_ {
+            get {
+                object obj = ResourceManager.GetObject("nhanvien__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap picture_addBook {
             get {
                 object obj = ResourceManager.GetObject("picture_addBook", resourceCulture);
@@ -276,6 +296,16 @@ namespace QuanLyThuVien.Properties {
         internal static System.Drawing.Bitmap profile {
             get {
                 object obj = ResourceManager.GetObject("profile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Timnhanvien {
+            get {
+                object obj = ResourceManager.GetObject("Timnhanvien", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

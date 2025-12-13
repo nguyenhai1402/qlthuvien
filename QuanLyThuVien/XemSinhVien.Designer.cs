@@ -170,7 +170,7 @@
             // txtSDT
             // 
             this.txtSDT.Location = new System.Drawing.Point(666, 42);
-            this.txtSDT.Mask = "0000-000-000";
+            this.txtSDT.Mask = "0000000000";
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(199, 22);
             this.txtSDT.TabIndex = 19;

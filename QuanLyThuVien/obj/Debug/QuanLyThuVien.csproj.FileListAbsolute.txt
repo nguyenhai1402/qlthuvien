@@ -29,3 +29,11 @@ C:\Users\Admin\source\repos\qlthuvien\QuanLyThuVien\obj\Debug\QuanLyThuVien.XemS
 C:\Users\Admin\source\repos\qlthuvien\QuanLyThuVien\obj\Debug\QuanLyThuVien.ThemSinhVien.resources
 C:\Users\Admin\source\repos\qlthuvien\QuanLyThuVien\obj\Debug\QuanLyThuVien.XemSinhVien.resources
 C:\Users\Admin\source\repos\qlthuvien\QuanLyThuVien\obj\Debug\QuanLyThuVien.PhieuMuon.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.PhieuMuon.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.ThemSach.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.ThemSinhVien.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.TrangChu.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.XemSach.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.XemSinhVien.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.DangKy.resources
+C:\Users\Nitro 5\source\repos\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Danhsachnhanvien.resources

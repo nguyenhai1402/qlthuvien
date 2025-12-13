@@ -67,11 +67,23 @@
     <Compile Include="CauHinhDB.Designer.cs">
       <DependentUpon>CauHinhDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKy.Designer.cs">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </Compile>
     <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Danhsachnhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danhsachnhanvien.Designer.cs">
+      <DependentUpon>Danhsachnhanvien.cs</DependentUpon>
     </Compile>
     <Compile Include="datahelper.cs" />
     <Compile Include="PhieuMuon.cs">
@@ -115,8 +127,14 @@
     <EmbeddedResource Include="CauHinhDB.resx">
       <DependentUpon>CauHinhDB.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DangKy.resx">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danhsachnhanvien.resx">
+      <DependentUpon>Danhsachnhanvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PhieuMuon.resx">
       <DependentUpon>PhieuMuon.cs</DependentUpon>
@@ -179,6 +197,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Database\database+taikhoan.sql" />
+    <None Include="Resources\dangtimnhanvien.gif" />
+    <None Include="Resources\Timnhanvien.png" />
+    <None Include="Resources\nhanvien %281%29.png" />
+    <None Include="Resources\nhanvien.png" />
     <None Include="Resources\sách.png" />
     <None Include="Resources\timkiemsach.png" />
     <None Include="Resources\trasach.png" />

@@ -82,6 +82,7 @@ namespace QuanLyThuVien
         }
         private void txtNhapTG_TextChanged(object sender, EventArgs e)
         {
+
             string truyVan = "select * from sach where tac_gia like @key";
             try
             {

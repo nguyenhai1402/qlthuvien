@@ -11,6 +11,7 @@ namespace QuanLyThuVien
 {
     internal class DataHelper
     {
+        public static int Quyen;
         public static DataHelper dt;
         string st = "";
         public SqlConnection con = new SqlConnection();

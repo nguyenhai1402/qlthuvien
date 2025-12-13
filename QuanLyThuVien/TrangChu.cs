@@ -61,5 +61,20 @@ namespace QuanLyThuVien
         {
 
         }
+
+        private void TrangChu_Load(object sender, EventArgs e)
+        {
+            if (DataHelper.Quyen == 1)
+            {
+                themSachToolStripMenuItem.Enabled= false;
+                thongKeToolStripMenuItem.Enabled= false;
+            }
+        }
+
+        private void xemThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Danhsachnhanvien ds = new Danhsachnhanvien();
+                ds.ShowDialog();
+        }
     }
 }

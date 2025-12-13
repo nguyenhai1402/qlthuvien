@@ -2,13 +2,17 @@ CREATE DATABASE QLYTHUVIEN
 USE
 QLYTHUVIEN
 
-create table TaiKhoan(
-    id int NOT NULL IDENTITY(1,1) primary key,
-    taikhoan varchar(150) not null,
-    matkhau varchar(150) not null
+CREATE TABLE TaiKhoan (
+    MaNguoiDung VARCHAR(20) PRIMARY KEY,     
+    TaiKhoan VARCHAR(150) NOT NULL UNIQUE,   -- username
+    MatKhau VARCHAR(150) NOT NULL,           -- password
+
+    HoTen NVARCHAR(150) NOT NULL,
+    SoDienThoai VARCHAR(10),
+    DiaChi NVARCHAR(200),
+
+    Quyen INT NOT NULL CHECK (QUYEN IN (0,1))-- 0 = admin, 1 = nhanvien
 );
 
-insert into TaiKhoan values('hainek','123456');
-insert into TaiKhoan values('hieunek','123456');
-insert into TaiKhoan values('1','1');
+drop table TaiKhoan
 select * from TaiKhoan
